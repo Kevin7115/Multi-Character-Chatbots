@@ -21,7 +21,7 @@ OPENAI_API_KEY = "Your OpenAI API Key"
 ELEVENLABS_API_KEY = "Your ElevenLabs API Key"
 ```
 
-server/bots.py has the code for running multiple characters using multithreading and server/character_bios.py has the character bios used. I have included custom voice ids for the characters from ElevenLabs, which will need to be replaced with the voice ids you choose to use
+[bots.py](server/bots.py) has the code for running multiple characters using multithreading and [character_bios.py](server/character_bios.py) has the character bios used. I have included custom voice ids for the characters from ElevenLabs, which will need to be replaced with the voice ids you choose to use
 ```python
 characters = [
     {"name": "Patrick", "bio": BOT_BIO_1, "voice_id": "CHANGE_VOICE_ID"},
